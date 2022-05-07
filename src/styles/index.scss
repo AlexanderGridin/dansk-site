@@ -1,17 +1,9 @@
-:root {
-  height: 100%;
-  padding: 35px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800;900&display=swap");
 
-body {
-  background-image: url(../assets/1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  color: white;
-}
+// COMMON
+@import "./common/normalize.scss";
+@import "./common/common.scss";
+@import "./common/section.scss";
 
-h1 {
-  color: yellow;
-}
+// SECTIONS
+@import "./sections/hero-section.scss";
