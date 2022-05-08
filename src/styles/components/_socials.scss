@@ -1,0 +1,37 @@
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.socials__item {
+  line-height: 0;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.socials__link {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  transition: 0.4s;
+  background-size: 90%;
+}
+
+.socials__link:hover {
+  background-color: #f4e8da;
+}
+
+.socials__link--telegram {
+  background-image: url(../assets/socials/telegram.png);
+}
+
+.socials__link--whatsapp {
+  background-image: url(../assets/socials/whatsapp.png);
+}
+
+.socials__link--viber {
+  background-image: url(../assets/socials/viber.png);
+}

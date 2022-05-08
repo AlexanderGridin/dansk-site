@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800;900&display=swap");
 
 // COMMON
-@import "./common/normalize.scss";
-@import "./common/common.scss";
-@import "./common/section.scss";
+@import "./common/normalize";
+@import "./common/common";
+@import "./common/section";
 
 // SECTIONS
-@import "./sections/hero-section.scss";
+@import "./sections/common/header";
+@import "./sections/hero-section";
+
+// COMPONENTS
+@import "./components/horizontal-nav";
+@import "./components/_socials.scss";
+@import "./components/language-select";

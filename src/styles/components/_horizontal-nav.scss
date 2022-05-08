@@ -1,0 +1,23 @@
+.horizontal-nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-nav__item:not(:last-child) {
+  margin-right: 38px;
+}
+
+.horizontal-nav__link,
+.horizontal-nav__link:visited {
+  display: inline-block;
+  color: #333333;
+  text-decoration: none;
+  font-size: 1.24rem;
+}
+
+.horizontal-nav__link:focus,
+.horizontal-nav__link:hover,
+.horizontal-nav__link:active,
+.horizontal-nav__link.current {
+  font-weight: 600;
+}
