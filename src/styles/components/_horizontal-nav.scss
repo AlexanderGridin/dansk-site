@@ -13,11 +13,24 @@
   color: #333333;
   text-decoration: none;
   font-size: 1.24rem;
+  position: relative;
 }
 
-.horizontal-nav__link:focus,
-.horizontal-nav__link:hover,
-.horizontal-nav__link:active,
-.horizontal-nav__link.current {
-  font-weight: 600;
+.horizontal-nav__link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #f4e8da;
+  transition: 0.4s;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+
+.horizontal-nav__link:focus::after,
+.horizontal-nav__link:hover::after,
+.horizontal-nav__link:active::after,
+.horizontal-nav__link.current::after {
+  width: 100%;
 }
