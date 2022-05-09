@@ -15,23 +15,36 @@
 .socials__link {
   width: 30px;
   height: 30px;
-  border-radius: 5px;
-  transition: 0.4s;
-  background-size: 90%;
 }
 
-.socials__link:hover {
+.socials__link::after {
+  content: "";
+  display: block;
+  position: absolute;
   background-color: #f4e8da;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  z-index: 0;
+  margin: -5px;
+  border-radius: 50%;
+  transition: 0.4s;
+  opacity: 0;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+  border: 1px solid #333333;
 }
 
-.socials__link--telegram {
+.socials__link:hover::after {
+  opacity: 1;
+}
+
+.socials__link--telegram::before {
   background-image: url(../assets/socials/telegram.png);
 }
 
-.socials__link--whatsapp {
+.socials__link--whatsapp::before {
   background-image: url(../assets/socials/whatsapp.png);
 }
 
-.socials__link--viber {
+.socials__link--viber::before {
   background-image: url(../assets/socials/viber.png);
 }
