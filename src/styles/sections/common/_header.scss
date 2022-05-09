@@ -3,37 +3,34 @@
   box-shadow: 0px 4px 10px rgba(105, 105, 105, 0.1);
 }
 
-.header .container {
-  padding: 10px 0;
-}
-
-.header .cell {
-  width: 100%;
-}
-
-.header .row:nth-child(1) {
+.header .row {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.header .row:nth-child(1) .cell:nth-child(1) {
+.header .cell {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.header .row .cell:nth-child(1) {
   max-width: 170px;
   margin-right: 43px;
 }
 
-.header .row:nth-child(1) .cell:nth-child(2) {
+.header .row .cell:nth-child(2) {
   max-width: 930px;
   margin-right: 60px;
 }
 
-.header .row:nth-child(1) .cell:nth-child(3) {
+.header .row .cell:nth-child(3) {
   max-width: 115px;
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
-.header .row:nth-child(1) .cell:nth-child(4) {
+.header .row .cell:nth-child(4) {
   max-width: 30px;
   margin-left: auto;
 }

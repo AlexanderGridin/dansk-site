@@ -3,14 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Front Page</title>
+    <title>Dansk Site</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="row">
           <div class="cell">
-            <img src="./assets/logo.png" alt="Company logo" />
+            <a class="logo" href="#">
+              <img
+                class="logo__img"
+                src="./assets/logo.png"
+                alt="Company logo"
+              />
+            </a>
           </div>
 
           <div class="cell">
@@ -78,12 +84,14 @@
           <div class="row">
             <div class="cell">
               <div class="section__header">
-                <div class="section__title">
-                  <h1 class="hero__title">
-                    <span>ХОТИТЕ ИЗУЧИТЬ ДАТСКИЙ ЯЗЫК?</span><br />
-                    <span>ЗАПИСЫВАЙТЕСЬ В НАШУ СТУДИЮ!</span>
-                  </h1>
-                </div>
+                <h1 class="hero__title">
+                  <span class="text-color-primary"
+                    >ХОТИТЕ ИЗУЧИТЬ ДАТСКИЙ ЯЗЫК?</span
+                  ><br />
+                  <span class="text-color-accent"
+                    >ЗАПИСЫВАЙТЕСЬ В НАШУ СТУДИЮ!</span
+                  >
+                </h1>
               </div>
 
               <div class="section__content">
@@ -92,12 +100,19 @@
               </div>
 
               <div class="section__footer">
-                <a href="#">Записаться на пробный ONLINE урок</a>
+                <a class="button-outline button-outline--primary" href="#"
+                  >Записаться на пробный ONLINE урок</a
+                >
               </div>
             </div>
 
             <div class="cell">
-              <img src="./assets/hero-img.jpg" alt="Hero image" />
+              <div class="hero__styled-img styled-img">
+                <img
+                  src="./assets/hero-section/hero-img.jpg"
+                  alt="Hero image"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -137,7 +152,7 @@
                 </p>
               </div>
               <div class="col">
-                <img src="./assets/about-img.jpg" alt="" />
+                <img src="https://via.placeholder.com/450x609" alt="" />
                 <p>основатель школы</p>
               </div>
             </div>
