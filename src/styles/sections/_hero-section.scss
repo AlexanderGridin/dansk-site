@@ -1,3 +1,45 @@
-.hero .section__title::before {
-  display: none;
+.hero .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .cell {
+  margin: 93px 0 117px;
+}
+
+.hero .row .cell:nth-child(1) {
+  max-width: 780px;
+  margin-right: 30px;
+}
+
+.hero .row .cell:nth-child(2) {
+  max-width: 555px;
+}
+
+.hero__title {
+  font-weight: 900;
+  line-height: 1.17;
+  font-size: 2.6rem;
+}
+
+.hero .section__header {
+  margin-bottom: 30px;
+}
+
+.hero .section__content {
+  max-width: 545px;
+  margin-bottom: 43px;
+}
+
+.hero__styled-img img {
+  border-radius: 30px;
+}
+
+.hero__styled-img::before {
+  background-image: url(../assets/hero-section/hero-img-bg.png);
+  width: 640px;
+  height: 561px;
+  top: -83px;
+  left: -60px;
 }
