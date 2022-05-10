@@ -1,0 +1,29 @@
+.creator-photo {
+  position: relative;
+}
+
+.creator-photo::after {
+  content: "";
+  display: block;
+  width: 426px;
+  height: 385px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../assets/about-section/creator-photo-bg.png);
+  position: absolute;
+  z-index: 0;
+  bottom: -100px;
+  left: -63px;
+}
+
+.creator-photo__img,
+.creator-photo__caption {
+  position: relative;
+  z-index: 1;
+}
+
+.creator-photo__img {
+  margin-bottom: 20px;
+  background-color: var(--primary-color);
+}

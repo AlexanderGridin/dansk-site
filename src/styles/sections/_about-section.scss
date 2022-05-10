@@ -1,0 +1,26 @@
+.about-section__header {
+  margin-bottom: 35px;
+}
+
+.about-section__content .row {
+  border: 1px solid red;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about-section__content .cell {
+  border: 1px solid green;
+  width: 100%;
+  margin: 35px 0 70px;
+}
+
+.about-section__content .cell:nth-child(1) {
+  order: 2;
+}
+
+.about-section__content .cell:nth-child(2) {
+  order: 1;
+  max-width: 450px;
+  margin-right: 60px;
+}

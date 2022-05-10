@@ -8,9 +8,11 @@
 // SECTIONS
 @import "./sections/common/header";
 @import "./sections/hero-section";
+@import "./sections/about-section";
 
 // COMPONENTS
 @import "./components/horizontal-nav";
 @import "./components/_socials.scss";
 @import "./components/language-select";
 @import "./components/buttons/buttons";
+@import "./components/creator-photo";
