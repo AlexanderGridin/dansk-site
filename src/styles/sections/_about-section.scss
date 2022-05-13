@@ -1,26 +1,28 @@
-.about-section__header {
-  margin-bottom: 35px;
-}
-
-.about-section__content .row {
-  border: 1px solid red;
+.about-section .section__body .row {
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
 
-.about-section__content .cell {
-  border: 1px solid green;
+.about-section .section__body .cell {
   width: 100%;
   margin: 35px 0 70px;
 }
 
-.about-section__content .cell:nth-child(1) {
+.about-section .section__body .cell:nth-child(1) {
   order: 2;
 }
 
-.about-section__content .cell:nth-child(2) {
+.about-section .section__body .cell:nth-child(2) {
   order: 1;
   max-width: 450px;
   margin-right: 60px;
+}
+
+.about-section .section__body .cell__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.about-text p + p {
+  margin-top: 30px;
 }

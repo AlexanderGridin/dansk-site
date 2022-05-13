@@ -1,0 +1,26 @@
+.block {
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.block__header {
+  margin-bottom: 22px;
+}
+
+.block__title {
+  text-transform: uppercase;
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+
+.block__footer {
+  margin-top: 25px;
+}
+
+.block--outline {
+  border: 3px solid #000000;
+}
+
+.block--outline-secondary {
+  border: 3px solid var(--secondary-color);
+}
