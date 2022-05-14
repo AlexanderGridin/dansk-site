@@ -1,11 +1,27 @@
 a,
 a:visited {
-  color: #5f8173;
-  text-decoration: underline;
+  color: #0c58c9;
+  text-decoration: none;
 }
 
 a:focus,
 a:hover,
 a:active {
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+.link-forward {
+  display: inline-flex;
+  align-items: center;
+}
+
+.link-forward::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../../assets/chevron-right.png);
 }

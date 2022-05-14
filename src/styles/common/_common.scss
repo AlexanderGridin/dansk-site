@@ -6,6 +6,8 @@
 @import "./headers";
 @import "./text-color";
 @import "./styled-img";
+@import "./unordered-list";
+@import "./text";
 
 .container {
   max-width: 1400px;
@@ -48,4 +50,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.img-rounded-corners {
+  border-radius: 30px;
+  overflow: hidden;
 }
